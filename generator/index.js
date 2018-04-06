@@ -1,7 +1,7 @@
 module.exports = (api, opts, rootOpts) => {
   api.extendPackage({
     dependencies: {
-      "bigbank-interface-components": "^0.3.2"
+      "bigbank-interface-components": "^0.4.0"
     }
   })
 
