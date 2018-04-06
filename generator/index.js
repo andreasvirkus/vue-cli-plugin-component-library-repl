@@ -9,8 +9,6 @@ module.exports = (api, opts, rootOpts) => {
   // Rewrite components if allowed
   {
     const fs = require('fs')
-    const routerPath = api.resolve('./src/router.js')
-    opts.router = fs.existsSync(routerPath)
 
     if (opts.replaceComponents) {
       api.render('./templates/default', { ...opts })
